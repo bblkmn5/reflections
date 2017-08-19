@@ -1,0 +1,34 @@
+Question: How did viewing a diff/FC between two versions help you spot the bug?
+
+Answer: By viewing the differences in two versions using diff/FC, I am able to efficiently and effectively spot the bugs that may have occurred when making changes in the code.
+
+
+Question: How can you use the commands git log and git diff to view the history of files?
+
+Answer: git log is used to view a log of all of the commit (save) changes that have been made to the file. With git diff, you can compare two different commit IDs and see what changes were made to the different commits.
+
+Question: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easier access means less time spent trying to find a specific version, as well as less files needed to store one document. For programming, this would be useful if a program works in one version, but stops working once you add new code. In this case, being able to easily return to a previous version allows for quicker debugging, and increasing productivity.
+
+Question: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easier access means less time spent trying to find a specific version, as well as less files needed to store one document. For programming, this would be useful if a program works in one version, but stops working once you add new code. In this case, being able to easily return to a previous version allows for quicker debugging, and increasing productivity.
+
+Question: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually creating a commit include: being able to make a commit point at just the "right" time, file size parameters, offline working. Cons include: might forget to make a commit when needed, or make a commit in too big of invervals.
+
+Pros of Autosave include: never forgetting to commit, debug at a point that is as minimal of an impact to code.
+Cons of Autosave include: Too many commits, file size parameters, too many commits could make it too hard to find specific problems.
+
+Question: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files in one commit happens because each of the files correlate with each other. However, in Google docs, each file is a separate file (word, excel, powerpoint, etc.). By default, these files are not correlated together.
+
+Question: How might using version control make you more confident to make changes that could break something?
+
+If things go wrong, version control allows for going back commit by commit, seeing where the breakage happened, and knowing where to start trying to fix the problem.
+
+Question: Now that you have your workspace set up, what do you want to try using Git for?
+I don’t know? That’s why I am taking this course, to learn about it!
