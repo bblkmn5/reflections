@@ -10,13 +10,21 @@ The staging area holds commits that are pending, while the working directory is 
 Question: How can you use the staging area to make sure you have one commit per logical
 change?
 
+By viewing the staging area with git diff and git diff --staged, I can view what changes are waiting to be committed, what changes have been added to the commit, and what changes are only in the staging area.
+
 Question: What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches can be used when wanting more than one option for a specific code. For example, creating an easy mode that does not effect the master version of a game. Branches can also be used for keeping different outputs based on the history of a program. In addition, if you want to have a master branch that always works, with different branches being used for testing out different changes or experiments to the master branch.
+
 Question: How do the diagrams help you visualize the branch structure?
+
+The diagrams help to show what most recent and parent commits can be reachable within each branch, as well as which ones cannot be reachable by any other branches. It also helps to show what happens when a new branch is created.
 
 Question: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+Merging two branches together results in the creation of a new branch from the two separate branches. It is represented two coming together because all of the commits from both branches are merged into one commit log. The branch will still be there in with it's own log, until it is deleted with git -d branch_name.
 
 Question: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
