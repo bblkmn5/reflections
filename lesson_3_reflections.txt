@@ -5,3 +5,9 @@ Creating a remote repository is a better option when collaborating with other pe
 Question: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Manually pulling changes might be better for if you don't finish a feature to your repository, or if it is a test feature you are doing that you do not want others to see until completed.
+
+Question: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork: copy a repository from another location, and create your own repository. Would use when not wanting to change another person's repository.
+Clone: copy a repository. Would use when making a new branch, but want to keep old branch information.
+Branch: a change made to a repository (ie master, coin, etc.). Would use when making a new feature to a repository that is not always going to be shown (ie "test" code or optional version).
