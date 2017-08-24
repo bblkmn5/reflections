@@ -11,3 +11,7 @@ Question: Describe the differences between forks, clones, and branches. When wou
 Fork: copy a repository from another location, and create your own repository. Would use when not wanting to change another person's repository.
 Clone: copy a repository. Would use when making a new branch, but want to keep old branch information.
 Branch: a change made to a repository (ie master, coin, etc.). Would use when making a new feature to a repository that is not always going to be shown (ie "test" code or optional version).
+
+Question: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you go offline, having the most recent copy means you can edit from the most recent edits without fear of missing something up to that point.
