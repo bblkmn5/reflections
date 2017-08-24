@@ -15,3 +15,7 @@ Branch: a change made to a repository (ie master, coin, etc.). Would use when ma
 Question: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If you go offline, having the most recent copy means you can edit from the most recent edits without fear of missing something up to that point.
+
+Question: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Online social media, slack, email. It would be time consuming and inefficient!
