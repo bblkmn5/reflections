@@ -19,3 +19,7 @@ If you go offline, having the most recent copy means you can edit from the most 
 Question: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Online social media, slack, email. It would be time consuming and inefficient!
+
+Question: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in a separate branch would be beneficial when you are working in a group, and are making a change that others need to accept before adding it to the master branch. A benefit of making a change directly in a master branch is if the change is a more universal change that will most likely be agreed upon by others, like adding new code versus changing code that is already present.
